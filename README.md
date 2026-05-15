@@ -1,2 +1,2 @@
 # CodeWars-Problems
-This is all the problems I have solved in CodeWars
+Problems I have solved on CodeWars to sharpen my skills in Web Development.
