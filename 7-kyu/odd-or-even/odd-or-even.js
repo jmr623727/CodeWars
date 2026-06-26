@@ -15,8 +15,3 @@ function oddOrEven(arr) {
 }
 ​
 console.log(oddOrEven([0,1,5]))
-​
-// return arr.reduce((acc, c) => {
-//     return c % 3 ? acc + c: acc
-//   }, 0)
-​
