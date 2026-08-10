@@ -1,3 +1,3 @@
 function reverse(string){
-  return string.trim().split(/\s+/).reverse().join(' ');
+  return string.split(' ').reverse().join(' ');
 }
