@@ -1,8 +1,9 @@
 function descendingOrder(n){
   //...
-  let arr = []
-  arr.push(n)
-  let newArr = String(arr).split('').sort((a, b) => b - a).join('');
-  return Number(newArr)
+  return parseInt(String(n).split('').sort().reverse().join(''))
+  // alt 
+//   let arr = []
+//   arr.push(n)
+//   let newArr = String(arr).split('').sort((a, b) => b - a).join('');
+//   return Number(newArr)
 }
-console.log(descendingOrder(15))
